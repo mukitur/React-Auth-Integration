@@ -11,6 +11,7 @@ const Header = () => {
         <div className="header my-5 fs-5">
             <h2>Welcome to React authentication</h2>
             <Link to = "/home">Home</Link>
+            <Link to = "/shipping">Shipping</Link>
             <Link to ="/register">Register</Link>
             <Link to ="/login">Login</Link>
             <span>{user.displayName} </span>
