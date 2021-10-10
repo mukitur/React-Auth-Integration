@@ -1,7 +1,7 @@
-import { createContext } from 'react';
-import useFireBase from '../hooks/useFireBase';
+import { createContext } from "react";
+import useFireBase from "../hooks/useFireBase";
 
- export const AuthContext = createContext();
+export const AuthContext = createContext();
 
 const AuthProvider = ({children}) => {
     //const {children} =props;

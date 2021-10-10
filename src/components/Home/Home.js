@@ -1,8 +1,9 @@
 import React from 'react';
-import useFireBase from '../../hooks/useFireBase';
+import useAuth from '../../hooks/useAuth';
+
 
 const Home = () => {
-    const {user} = useFireBase();
+    const {user} = useAuth();
     return (
         <div>
             <h2>This is home</h2>

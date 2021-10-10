@@ -1,11 +1,11 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-//import useAuth from '../../hooks/useAuth';
-import useFireBase from '../../hooks/useFireBase';
+import useAuth from '../../hooks/useAuth';
+
 
 const Login = () => {
-    const {signInWithGoogle} = useFireBase(); 
-    //const {signInWithGoogle} = useAuth()
+    const {signInWithGoogle} = useAuth();
+    
     return (
         <div>
             <h2 className="my-3 text-primary">Welcome to Login Page</h2>
